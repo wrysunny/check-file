@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jsp:root PUBLIC "-//Sun Microsystems, Inc.//DTD JavaServer Pages Standard Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8" />
+
+    <html>
+        <head>
+            <title>Hello World</title>
+        </head>
+        <body>
+            <jsp:scriptlet>
+                out.print("hello world");
+            </jsp:scriptlet>
+        </body>
+    </html>
+</jsp:root>
